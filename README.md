@@ -1,47 +1,16 @@
-# Soil_and_tree_info
-# Rajasthan Soil & Plant Guide - README
+# React + Vite
 
-## Project Overview
-The Rajasthan Soil & Plant Guide is a web application that helps farmers and gardening enthusiasts in Rajasthan discover the most suitable plants for their specific district and soil type. This interactive guide provides detailed information about optimal growing conditions and recommendations for over 400 plants across 20 districts of Rajasthan.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Features
-- District-based Plant Recommendations**: Browse plants suitable for each of Rajasthan's 20 districts
-- Soil Type Filtering: Filter plants by 6 different soil types found in Rajasthan
-- Plant Type Categorization: Explore fruits, vegetables, trees, and crops
-- Search Functionality: Find specific plants by name or description
-- Detailed Information: View comprehensive details about each plant and district
-- Responsive Design: Works on desktop and mobile devices
+Currently, two official plugins are available:
 
-## Technologies Used
-- HTML
-- CSS 
-- JavaScript 
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## How to Use
-1. Open the `index.html` file in any modern web browser
-2. Use the search bar to find specific plants
-3. Filter plants by district, soil type, or plant type using the dropdown menus
-4. Click on any plant card to view detailed information
-5. Click on district names to see soil information and recommended plants for that area
+## React Compiler
 
-## Data Structure
-The application uses two main data arrays:
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-          * District Data
-          Contains information about each district including:
-          - District name
-          - Soil types found in the district
-          - List of 20 recommended plants
-          - Description of the district's agricultural characteristics
-          
-          * Plant Data
-          Generated from district data, containing:
-          - Plant name and type
-          - Suitable soil types
-          - Districts where the plant grows well
-          - Description and growing conditions
+## Expanding the ESLint configuration
 
-## Acknowledgments
-- Plant data compiled from Rajasthan agricultural resources
-- Color scheme inspired by Rajasthan's desert landscape
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
